@@ -21,7 +21,7 @@ const SignUp = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:8000/api/users/signup", {
+      const response = await fetch("https://recycledprototype.onrender.com/api/users/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
