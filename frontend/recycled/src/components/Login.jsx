@@ -19,8 +19,8 @@ const Login = () => {
   
       try {
         const response = await loginUser(loginData);
-        // console.log("Login successful:", response);
-        // console.log("accessToken : ",response.data.accessToken)
+        console.log("Login successful:", response);
+        console.log("accessToken : ",response.data.accessToken)
         localStorage.setItem("accessToken",response.data.accessToken);
         const token = localStorage.getItem('accessToken')
         console.log(" token : ",token)
