@@ -12,7 +12,7 @@ const Home = () => {
       <header className="header">
         <div className="logo">
           <Leaf className="icon" />
-          <span className="title">EcoRewards</span>
+          <span className="title">Naskham</span>
         </div>
       </header>
 

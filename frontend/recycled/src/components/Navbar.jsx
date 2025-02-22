@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
     
-         <h1 className="logo"><Leaf className="icon" />EcoRewards</h1>
+         <h1 className="logo"><Leaf className="icon" />Naskham</h1>
       <button className="menu-btn" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <X className="icon" /> : <Menu className="icon-h" />}
       </button>
