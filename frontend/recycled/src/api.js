@@ -2,7 +2,7 @@ import axios from "axios";
 // import e from "cors";
 
 
-const API_URL = 'https://recycledprototype.onrender.com/api';
+const API_URL = 'http://localhost:8000/api';
 
 export const api = axios.create({
     baseURL: API_URL,

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'https://recycledprototype.onrender.com/api/event';
+const API_URL = 'http://localhost:8000/api/event';
 
 const token = localStorage.getItem('accessToken')
 
