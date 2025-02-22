@@ -1,0 +1,70 @@
+/* Event List Container */
+/* .event{
+    flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+display: flex;
+} */
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds spacing between cards */
+    justify-content: center; 
+    padding: 20px;
+    list-style: none; /* Removes default list styles */
+  }
+  
+  /* Individual Event Card */
+  .event-card {
+    width: 350px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    background: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .event-card {
+      width: 100%; /* Make cards full-width on smaller screens */
+    }
+  }
+  
+  .mission-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin: 1.5rem;
+  }
+  
+  .mission-header .mission-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3748; /* Equivalent to text-gray-800 */
+    margin: 0;
+  }
+  
+  .mission-header .mission-text p {
+    color: #718096; /* Equivalent to text-gray-600 */
+    margin: 0;
+  }
+  
+  .mission-header .mission-icon {
+    background-color: #f3e8ff; /* Equivalent to bg-purple-100 */
+    padding: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mission-header .mission-icon svg {
+    width: 32px; /* Equivalent to h-8 w-8 */
+    height: 32px;
+    color: #805ad5; /* Equivalent to text-purple-600 */
+  }
+  

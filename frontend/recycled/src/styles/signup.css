@@ -1,0 +1,152 @@
+/* General Page Styling */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #eafbf1; /* Light green background */
+    padding: 20px;
+}
+
+/* Back to Home Link */
+.back-link {
+    text-decoration: none;
+    color: #008000;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 14px;
+}
+
+/* Signup Box */
+.signup-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Heading */
+.signup-box h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #111;
+}
+
+.signup-box p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Input Box */
+.input-box {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.input-box .icon {
+    margin-right: 10px;
+    color: #555;
+}
+
+.input-box input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Signup Button */
+.signup-btn {
+    width: 100%;
+    background: #008000;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.signup-btn:hover {
+    background: #006600;
+}
+
+/* Login Text */
+.login-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-text a {
+    color: #008000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .signup-box {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .signup-box h2 {
+        font-size: 20px;
+    }
+
+    .signup-box p {
+        font-size: 13px;
+    }
+
+    .input-box {
+        padding: 8px;
+    }
+
+    .signup-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-box {
+        padding: 15px;
+    }
+
+    .signup-box h2 {
+        font-size: 18px;
+    }
+
+    .signup-box p {
+        font-size: 12px;
+    }
+
+    .back-link {
+        font-size: 12px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .signup-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

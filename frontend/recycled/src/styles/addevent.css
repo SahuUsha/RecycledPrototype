@@ -1,0 +1,147 @@
+.event-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .event-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3748;
+  }
+  
+  .event-subtitle {
+    font-size: 14px;
+    color: #4a5568;
+    margin-bottom: 16px;
+  }
+  
+  /* Upload Box */
+  .upload-box {
+    border: 2px dashed #cbd5e0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .upload-box:hover {
+    border-color: #3182ce;
+  }
+  
+  .upload-icon {
+    font-size: 40px;
+    color: #4a5568;
+    margin-bottom: 10px;
+  }
+  
+  .upload-formats {
+    font-size: 12px;
+    color: #718096;
+  }
+  
+  .upload-btn {
+    background: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .upload-btn:hover {
+    background: #1e40af;
+  }
+  
+  /* Form */
+  .event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .event-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+  }
+  
+  .submit-btn {
+    background: #2563eb;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background: #1e40af;
+  }
+  
+  /* Camera Icon */
+  .camera-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #e2e8f0;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .camera-icon svg {
+    color: #2563eb;
+    width: 30px;
+    height: 30px;
+  }
+  .scanning-tips-container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+  
+  .scanning-tips-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748; /* Tailwind: text-gray-800 */
+    margin-bottom: 16px;
+  }
+  
+  .scanning-tips-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .scanning-tips-item {
+    display: flex;
+    align-items: center;
+    color: #4a5568; /* Tailwind: text-gray-600 */
+    margin-bottom: 12px;
+  }
+  
+  .scanning-tips-icon {
+    background-color: #ebf8ff; /* Tailwind: bg-blue-100 */
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .scanning-tips-icon svg {
+    width: 16px;
+    height: 16px;
+    color: #3182ce; /* Tailwind: text-blue-600 */
+  }
+  .eventheader{
+     margin: 2rem;
+  }

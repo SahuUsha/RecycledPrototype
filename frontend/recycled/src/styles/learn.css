@@ -1,0 +1,87 @@
+/* Learn Page Container */
+.learn-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Title */
+  .learn-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 20px;
+  }
+  
+  /* Courses Grid */
+  .learn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Individual Course Card */
+  .course-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Course Image */
+  .course-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Course Title */
+  .course-card h2 {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-top: 10px;
+  }
+  
+  /* Course Description */
+  .course-card p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin: 10px 0;
+  }
+  
+  /* Enroll Button */
+  .course-card button {
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-card button:hover {
+    background-color: #16a34a;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .learn-container h1 {
+      font-size: 1.75rem;
+      text-align: center;
+    }
+    
+    .learn-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
